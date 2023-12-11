@@ -1,4 +1,8 @@
 import os
+import openpyxl
+
+# This program accepts text files that contain a list of people assigned to a certain drive. It check all files contained in the same folder that this script is in. 
+# The output will be a list of LANIDs and a list of names that can be pasted in an excel file
 
 def LAN_Name(file):
     
