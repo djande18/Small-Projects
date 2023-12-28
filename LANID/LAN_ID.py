@@ -49,7 +49,7 @@ def LAN_Name(file):
             cell2 = sheet.cell(row=i-3,column=2)
             cell2.value = f"{name}"
 
-
+    #Perform a minor verification that the length of the name list is the same as the length of the LANID list
     if len(LANIDs) == len(names):
         print("Confirmed")
     else:
